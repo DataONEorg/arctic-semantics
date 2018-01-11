@@ -4,16 +4,16 @@
 1. Ensure that ECSO contains terms for describing carbon cycling issues in the Arctic  
 &nbsp;&nbsp;1.a  requires identifying terms we currently have that are relevant and correctly modeled  
 &nbsp;&nbsp;1.b. requires collecting additional terms that we do not yet know about or have not yet incorporated  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.1. requires mining metadata and extracting needed term for incorporation into ECSO (R script)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.2. requires gaining familiarity with carbon cycling concepts, vocabulary, measurements and units (read background papers, examine relevant databases [e.g. Ameriflux (http://ameriflux.lbl.gov/) and Fluxnet (https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=9)])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.1. requires mining metadata and extracting needed term for incorporation into ECSO (R script)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.2. requires gaining familiarity with carbon cycling concepts, vocabulary, measurements and units (read background papers, examine relevant databases [e.g. Ameriflux (http://ameriflux.lbl.gov/) and Fluxnet (https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=9)])
 
-2. Prepare the permafrost synthesis working group datasets as a use case
-  2.1. need to examine the Schuur data files and extract information to add to the Google spreadsheet: https://drive.google.com/open?id=1u0rCkml8EHfMXYHPXv3PGlvdbA06WVPoju-vmxmaHAU
-    2.1.1. requires examining, understanding and extracting measurement attributes and how they are described, including units, methods, and instruments (could be done manually or automated with scripts; potential task for interns)
-  2.2 requires adding relevant terms obtained from the working group files to the ontology   
-    2.2.1 requires finding any missing data objects and adding them to the ADC (at least 5 data packages have no data objects)
-    2.2.2. requires adding attribute-level metadata to the Schuur data objects (task for interns)
-    2.2.3. requires examining the attribute-level metadata to create new terms to add to the ontology
+2. Prepare the permafrost synthesis working group datasets as a use case  
+&nbsp;&nbsp;  2.a. need to examine the Schuur data files and extract information to add to the Google spreadsheet: https://drive.google.com/open?id=1u0rCkml8EHfMXYHPXv3PGlvdbA06WVPoju-vmxmaHAU  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.a.1. requires examining, understanding and extracting measurement attributes and how they are described, including units, methods, and instruments (could be done manually or automated with scripts; potential task for interns)  
+&nbsp;&nbsp;  2.b requires adding relevant terms obtained from the working group files to the ontology  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.b.1 requires finding any missing data objects and adding them to the ADC (at least 5 data packages have no data objects)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.b.2. requires adding attribute-level metadata to the Schuur data objects (task for interns)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.b.3. requires examining the attribute-level metadata to create new terms to add to the ontology  
 
 3. Demonstrate how semantic annotations improve search results in the ADC
   3.1. need to decide on query terms and how to evaluate precision/recall 
