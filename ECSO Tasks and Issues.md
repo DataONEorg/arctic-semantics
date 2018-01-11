@@ -15,24 +15,24 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.b.2. requires adding attribute-level metadata to the Schuur data objects (task for interns)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.b.3. requires examining the attribute-level metadata to create new terms to add to the ontology  
 
-3. Demonstrate how semantic annotations improve search results in the ADC
-  3.1. need to decide on query terms and how to evaluate precision/recall 
-    3.1.1. requires writing scripts for performing batch queries on data objects without attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/blob/master/dataone-query.R) and with attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/tree/master/Attribute_metadata)
-    3.1.2. requires comparing ADC search results with and without semantic annotations
-    3.1.3. requires developing metrics for evaluating precision and recall
+3. Demonstrate how semantic annotations improve search results in the ADC  
+&nbsp;&nbsp;  3.1. need to decide on query terms and how to evaluate precision/recall  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.1. requires writing scripts for performing batch queries on data objects without attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/blob/master/dataone-query.R) and with attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/tree/master/Attribute_metadata). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.2. requires comparing ADC search results with and without semantic annotations  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.3. requires developing metrics for evaluating precision and recall
 		
-### Issues with ECSO 1.0 (found here: https://github.com/DataONEorg/sem-prov-ontologies/blob/ArcticECSO/observation/d1-ECSO.owl)
-1. Class terms need to be reorganized in the hierarchy
-  1.1. requires identifying terms currently at the root level that should be nested (e.g. CHEBI_33300)
-  1.2. requires checking subsumption (class/subclass) relations between terms (e.g. "carbon flux"" is a sibling class of "carbon dioxide flux" when it should be a superclass)
-  1.3. requires searching for redundant terms in the ontology
+### Issues with ECSO 1.0 (found here: https://github.com/DataONEorg/sem-prov-ontologies/blob/ArcticECSO/observation/d1-ECSO.owl)  
+1. Class terms need to be reorganized in the hierarchy  
+&nbsp;&nbsp;  1.1. requires identifying terms currently at the root level that should be nested (e.g. CHEBI_33300)  
+&nbsp;&nbsp;  1.2. requires checking subsumption (class/subclass) relations between terms (e.g. "carbon flux"" is a sibling class of "carbon dioxide flux" when it should be a superclass)  
+&nbsp;&nbsp;  1.3. requires searching for redundant terms in the ontology
 
 2. Ensure all terms have consistent annotation properties
-  2.1. requires agreeing upon and verifying consistent use of annotation properties (e.g. alternative label)
-    2.1.1. requires verifying that each term contains a populated "rdfs:label" field
-	2.1.2. requires verifying that each term contains a populated "definition" field
-	2.1.3. requires verifying that each term contains a populated "id" field
+&nbsp;&nbsp;  2.1. requires agreeing upon and verifying consistent use of annotation properties (e.g. alternative label)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.1.1. requires verifying that each term contains a populated "rdfs:label" field
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.2. requires verifying that each term contains a populated "definition" field
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.3. requires verifying that each term contains a populated "id" field
 		
 3. Ensure that each term contains a fully resolvable IRI using HTTP
-  3.1. requires verifying that each term contains a fully resolvable IRI using HTTP	
+&nbsp;&nbsp;  3.1. requires verifying that each term contains a fully resolvable IRI using HTTP	
 	
