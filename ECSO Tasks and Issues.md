@@ -1,6 +1,6 @@
-#ECSO Tasks and Issues List
+# ECSO Tasks and Issues List
 
-###Tasks
+### Tasks
 1. Ensure that ECSO contains terms for describing carbon cycling issues in the Arctic
   1.1 requires identifying terms we currently have that are relevant and correctly modeled
   1.2. requires collecting additional terms that we do not yet know about or have not yet incorporated
@@ -21,7 +21,7 @@
     3.1.2. requires comparing ADC search results with and without semantic annotations
     3.1.3. requires developing metrics for evaluating precision and recall
 		
-###Issues with ECSO 1.0 (found here: https://github.com/DataONEorg/sem-prov-ontologies/blob/ArcticECSO/observation/d1-ECSO.owl)
+### Issues with ECSO 1.0 (found here: https://github.com/DataONEorg/sem-prov-ontologies/blob/ArcticECSO/observation/d1-ECSO.owl)
 1. Class terms need to be reorganized in the hierarchy
   1.1. requires identifying terms currently at the root level that should be nested (e.g. CHEBI_33300)
   1.2. requires checking subsumption (class/subclass) relations between terms (e.g. "carbon flux"" is a sibling class of "carbon dioxide flux" when it should be a superclass)
