@@ -17,7 +17,7 @@
 
 3. Demonstrate how semantic annotations improve search results in the ADC  
 &nbsp;&nbsp;  3.1. need to decide on query terms and how to evaluate precision/recall  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.1. requires writing scripts for performing batch queries on data objects without attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/blob/master/dataone-query.R) and with attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/tree/master/Attribute_metadata). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.1. requires writing scripts for performing batch queries on data objects without attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/blob/master/dataone-query.R) and with attribute-level metadata (https://github.nceas.ucsb.edu/NCEAS/adc-controlled-voc/tree/master/Attribute_metadata)   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.2. requires comparing ADC search results with and without semantic annotations  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3.1.3. requires developing metrics for evaluating precision and recall
 		
@@ -29,10 +29,10 @@
 
 2. Ensure all terms have consistent annotation properties
 &nbsp;&nbsp;  2.1. requires agreeing upon and verifying consistent use of annotation properties (e.g. alternative label)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.1.1. requires verifying that each term contains a populated "rdfs:label" field
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.2. requires verifying that each term contains a populated "definition" field
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.1.1. requires verifying that each term contains a populated "rdfs:label" field  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.2. requires verifying that each term contains a populated "definition" field  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.3. requires verifying that each term contains a populated "id" field
 		
-3. Ensure that each term contains a fully resolvable IRI using HTTP
+3. Ensure that each term contains a fully resolvable IRI using HTTP  
 &nbsp;&nbsp;  3.1. requires verifying that each term contains a fully resolvable IRI using HTTP	
 	
