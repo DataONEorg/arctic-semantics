@@ -27,8 +27,8 @@
   1.2. requires checking subsumption (class/subclass) relations between terms (e.g. "carbon flux"" is a sibling class of "carbon dioxide flux" when it should be a superclass)  
   1.3. requires searching for redundant terms in the ontology
 
-2. Ensure all terms have consistent annotation properties
-  2.1. requires agreeing upon and verifying consistent use of annotation properties (e.g. alternative label)
+2. Ensure all terms have consistent annotation properties  
+  2.1. requires agreeing upon and verifying consistent use of annotation properties (e.g. alternative label)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2.1.1. requires verifying that each term contains a populated "rdfs:label" field  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.2. requires verifying that each term contains a populated "definition" field  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2.1.3. requires verifying that each term contains a populated "id" field
