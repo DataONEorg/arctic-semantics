@@ -2,8 +2,8 @@
 
 ### Tasks
 1. Ensure that ECSO contains terms for describing carbon cycling issues in the Arctic
-  1.a  requires identifying terms we currently have that are relevant and correctly modeled
-  1.b. requires collecting additional terms that we do not yet know about or have not yet incorporated
+  1 .a  requires identifying terms we currently have that are relevant and correctly modeled
+  1 .b. requires collecting additional terms that we do not yet know about or have not yet incorporated
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.1. requires mining metadata and extracting needed terms for incorporation into ECSO (R script)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.b.2. requires gaining familiarity with carbon cycling concepts, vocabulary, measurements and units (read background papers, examine relevant databases [e.g. Ameriflux (http://ameriflux.lbl.gov/) and Fluxnet (https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=9)])
 
@@ -35,8 +35,4 @@
 		
 3. Ensure that each term contains a fully resolvable IRI using HTTP
   3.1. requires verifying that each term contains a fully resolvable IRI using HTTP	
-		
-		
-		
-
 	
