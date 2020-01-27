@@ -3,9 +3,7 @@
 For the ADC carbon measurement semantic annotation project, a spreadsheet is used to assign term IDs found in the ECSO ontology to attributes. The spreadsheet is then used as input for the `insert_attribute_annotations_into_EML.R` script to programmatically create the appropriate annotation nodes and insert them into the correct places in the EML documents, found [here](https://github.com/DataONEorg/arctic-semantics/blob/master/semantic_annotations/insert_semantic_annotations/insert_attribute_annotations_into_EML.R).
 
 ## Workflow
-This workflow is for creating a brand new annotation spreadsheet. If you would rather *update* an existing spreadsheet, you should follow the workflow found here.
-
-As an overview, the process we followed allowed us to retrieve the data packages containing carbon-relevant terms and then create a spreadsheet listing the attributes inside those packages. We then used the spreadsheet to assign annotations to the attributes.
+This workflow is for creating a brand new annotation spreadsheet. As an overview, we retrieved ADC data packages containing carbon-relevant terms and then created a spreadsheet listing the attributes inside those packages. We then used the spreadsheet to assign annotations to the attributes.
 
 ### Steps
 1) Run the `01_dataone-batch-query_general_and_data_attribute.R` script to programmatically query the Arctic Data Center. It takes as input the Carbon_Cycling_Terms.csv file, which contains a list of carbon-relevant terms that may be modified, as needed. The script replicates the results you would receive if you performed searches on the query terms in the general search box and data attribute search box. The results are stored in individual CSV files -- each file contains the results from a particular search type and query term.
